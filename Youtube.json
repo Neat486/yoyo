@@ -1,0 +1,85 @@
+{
+  "name": "Youtube",
+  "subtitle": "The Youtube app",
+  "description": "Welcome to youtube ",
+  "iconURL": "https://i.imgur.com/bcsUJ1r.png",
+  "website": "https://altstudio.app",
+  "patreonURL": "https://github.com/Neat486/YTLitePlusEXTRA",
+  "tintColor": "#ff2301",
+  "featuredApps": [],
+  "apps": [
+    {
+      "name": "DolphiniOS",
+      "bundleIdentifier": "cstos.Entitlement",
+      "marketplaceID": "",
+      "developerName": "Chris Fong",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/91ReIJJ.png",
+      "tintColor": "#f4d41e",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b8/Non-Jailbroken.ipa",
+          "size": 15800000,
+          "version": "4.0.0b8",
+          "buildVersion": null,
+          "date": "2025-09-14T15:15:00-07:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.kernel.extended-virtual-addressing"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "DolphiniOS uses the local network to find and communicate with AltServer."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "YouTube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "marketplaceID": "",
+      "developerName": "Chris Fong",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/6vfygGJ.png",
+      "tintColor": "#fc0434",
+      "category": "developer",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/Neat486/YTLitePlusEXTRA/releases/download/ytliteplusextra-forsideloading2/YTLitePlusEXTRA_For-Sideloading_5.2b3.ipa",
+          "size": 123500000,
+          "version": "20.36.3",
+          "buildVersion": null,
+          "date": "2025-09-14T15:04:00-07:00",
+          "localizedDescription": "awesome",
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.kernel.extended-virtual-addressing"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "This lets you create videos using the app.",
+          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites.",
+          "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+          "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+          "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+          "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+          "NSLocationWhenInUseUsageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads.",
+          "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+          "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created."
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
